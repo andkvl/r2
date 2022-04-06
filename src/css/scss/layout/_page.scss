@@ -1,0 +1,27 @@
+.page {
+  flex: 1 1 auto;
+}
+.page__main-block {
+}
+.page__services {
+  position: relative;
+  z-index: 2;
+  margin-top: -111px;
+}
+.page__advantages {
+}
+.page__practice {
+}
+.page__whoweare {
+}
+.page__clients {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.page__subscribe {
+}
+.page__getintouch {
+}
+.page__contact {
+}
